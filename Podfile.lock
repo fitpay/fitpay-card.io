@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.1.0)
+  - AlamofireObjectMapper (4.0.0):
+    - Alamofire (~> 4.0)
+    - ObjectMapper (~> 2.0)
+  - FitpaySDK (0.4.10):
+    - Alamofire (= 4.1.0)
+    - AlamofireObjectMapper (= 4.0.0)
+    - JWTDecode (= 2.0.0)
+    - KeychainAccess (= 3.0.0)
+    - ObjectMapper (= 2.2.5)
+  - JWTDecode (2.0.0)
+  - KeychainAccess (3.0.0)
+  - ObjectMapper (2.2.5)
+
+DEPENDENCIES:
+  - FitpaySDK (from `/Users/antonpopovichenko/dev/ios/fitpay/fitpay-ios-sdk`)
+
+EXTERNAL SOURCES:
+  FitpaySDK:
+    :path: /Users/antonpopovichenko/dev/ios/fitpay/fitpay-ios-sdk
+
+SPEC CHECKSUMS:
+  Alamofire: e266cf991b933498df791e645e0d8ac294492153
+  AlamofireObjectMapper: 9faa3ce5a240efda1b209009a2d6e1e949227abc
+  FitpaySDK: 9c6096cabfdd6637513801a401d7215387680ddf
+  JWTDecode: 178e47e5d28d3abcff778bacced8342858cd6cb5
+  KeychainAccess: 412bf2650d9aebfc8135a58103b90ec38caad7f8
+  ObjectMapper: fb30f71e08470d1e5a20b199fafe1246281db898
+
+PODFILE CHECKSUM: cdbd6580f340f82a35e838e659997a8023ab286d
+
+COCOAPODS: 1.2.1
