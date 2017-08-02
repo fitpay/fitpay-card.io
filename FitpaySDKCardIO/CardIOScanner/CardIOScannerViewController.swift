@@ -28,14 +28,23 @@ import FitpaySDK
     
     public init() {
         super.init(paymentDelegate: CardIODelegate2FitpayScannerDelegate(), scanningEnabled: true)
+        
+        self.hideCardIOLogo = true
+        self.disableManualEntryButtons = true
     }
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+        
+        self.hideCardIOLogo = true
+        self.disableManualEntryButtons = true
     }
     
     required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
+        
+        self.hideCardIOLogo = true
+        self.disableManualEntryButtons = true
     }
 }
 
