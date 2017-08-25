@@ -4,5 +4,5 @@
 target 'FitpaySDKCardIO' do
   use_frameworks!
   
-  pod 'FitpaySDK', :git => 'https://github.com/fitpay/fitpay-ios-sdk.git', :branch => 'PLAT-2714-card.scan'
+  pod 'FitpaySDK', '>= 0.4.13'
 end
