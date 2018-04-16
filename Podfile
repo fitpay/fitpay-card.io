@@ -4,5 +4,5 @@
 target 'FitpaySDKCardIO' do
   use_frameworks!
   
-  pod 'FitpaySDK', '>= 0.4.13'
+  pod 'FitpaySDK'
 end

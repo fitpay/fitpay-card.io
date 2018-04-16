@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors = { 'Fit Pay, Inc' => 'sdk@fit-pay.com' }
   s.source = { :git => 'https://github.com/fitpay/fitpay-card.io.git', :tag => 'v0.2' }
 
-  s.dependency 'FitpaySDK', '>= 0.4.14'
+  s.dependency 'FitpaySDK'
 
   s.ios.deployment_target = '9.0'
   s.source_files          = "FitpaySDKCardIO/**/*.{swift,h}"
