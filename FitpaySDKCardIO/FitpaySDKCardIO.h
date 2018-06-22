@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CardIO.h"
+//#import "CardIO.h"
 
 //! Project version number for FitpaySDKCardIO.
 FOUNDATION_EXPORT double FitpaySDKCardIOVersionNumber;

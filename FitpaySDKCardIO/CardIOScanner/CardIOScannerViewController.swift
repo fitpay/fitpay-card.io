@@ -8,6 +8,7 @@
 
 import UIKit
 import FitpaySDK
+import CardIO
 
 @objc open class CardIOScannerViewController: CardIOPaymentViewController, IFitpayCardScanner {
     
@@ -28,7 +29,6 @@ import FitpaySDK
     
     public init() {
         super.init(paymentDelegate: CardIODelegate2FitpayScannerDelegate(), scanningEnabled: true)
-        
         self.hideCardIOLogo = true
         self.disableManualEntryButtons = true
     }
