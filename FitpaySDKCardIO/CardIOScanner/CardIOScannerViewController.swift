@@ -8,7 +8,6 @@
 
 import UIKit
 import FitpaySDK
-import CardIO
 
 @objc open class CardIOScannerViewController: CardIOPaymentViewController, IFitpayCardScanner {
     

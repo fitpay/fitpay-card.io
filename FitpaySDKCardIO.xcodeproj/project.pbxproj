@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27A789F120E116A8006922C5 /* CardIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A789F020E116A8006922C5 /* CardIO.framework */; };
 		37377A471EDEB5E2000B72A7 /* FitpaySDKCardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 37377A451EDEB5E2000B72A7 /* FitpaySDKCardIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37377A4F1EDEB830000B72A7 /* CardIOScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37377A4E1EDEB830000B72A7 /* CardIOScannerViewController.swift */; };
 		374399CB1EDEC72200D7FC98 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399CA1EDEC72200D7FC98 /* Accelerate.framework */; };
@@ -14,56 +15,11 @@
 		374399CF1EDEC73A00D7FC98 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399CE1EDEC73A00D7FC98 /* AudioToolbox.framework */; };
 		374399D11EDEC74400D7FC98 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399D01EDEC74400D7FC98 /* CoreMedia.framework */; };
 		374399D31EDEC74D00D7FC98 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399D21EDEC74D00D7FC98 /* MobileCoreServices.framework */; };
-		91CA7F5620D9671F00AA7110 /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CA6FD220D948E700AA7110 /* libCardIO.a */; };
 		FB8F7642A1759F14875764C9 /* Pods_FitpaySDKCardIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AB4BD6518F3806FF930294 /* Pods_FitpaySDKCardIO.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		91CA6FCB20D948E700AA7110 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91CA6FC320D948E700AA7110 /* icc.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A553B7141BE32273006DF551;
-			remoteInfo = icc;
-		};
-		91CA6FCD20D948E700AA7110 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91CA6FC320D948E700AA7110 /* icc.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 92263D701B83ACBB003FE678;
-			remoteInfo = CardIO;
-		};
-		91CA6FCF20D948E700AA7110 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91CA6FC320D948E700AA7110 /* icc.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3E9F4C7F181F07B700F33B48;
-			remoteInfo = "icc-static";
-		};
-		91CA6FD120D948E700AA7110 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91CA6FC320D948E700AA7110 /* icc.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3E9F4C49181F03F300F33B48;
-			remoteInfo = "CardIO-static";
-		};
-		91CA6FD320D948E700AA7110 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91CA6FC320D948E700AA7110 /* icc.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 03306CF81284952B00683F48;
-			remoteInfo = UnitTest;
-		};
-		91CA7F5020D9671200AA7110 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91CA6FC320D948E700AA7110 /* icc.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A553B6E51BE32273006DF551;
-			remoteInfo = icc;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		27A789F020E116A8006922C5 /* CardIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CardIO.framework; sourceTree = "<group>"; };
 		33AB4BD6518F3806FF930294 /* Pods_FitpaySDKCardIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitpaySDKCardIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37377A421EDEB5E2000B72A7 /* FitpaySDKCardIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FitpaySDKCardIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37377A451EDEB5E2000B72A7 /* FitpaySDKCardIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FitpaySDKCardIO.h; sourceTree = "<group>"; };
@@ -74,7 +30,6 @@
 		374399CE1EDEC73A00D7FC98 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		374399D01EDEC74400D7FC98 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		374399D21EDEC74D00D7FC98 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		91CA6FC320D948E700AA7110 /* icc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = icc.xcodeproj; path = "card.io-ios-source/icc.xcodeproj"; sourceTree = "<group>"; };
 		C3C00EC6BE011E56E83684F0 /* Pods-FitpaySDKCardIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitpaySDKCardIO.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitpaySDKCardIO/Pods-FitpaySDKCardIO.release.xcconfig"; sourceTree = "<group>"; };
 		C5C4271E3B2C8357A7FFC8C5 /* Pods-FitpaySDKCardIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitpaySDKCardIO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitpaySDKCardIO/Pods-FitpaySDKCardIO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,12 +39,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91CA7F5620D9671F00AA7110 /* libCardIO.a in Frameworks */,
 				374399D31EDEC74D00D7FC98 /* MobileCoreServices.framework in Frameworks */,
 				374399D11EDEC74400D7FC98 /* CoreMedia.framework in Frameworks */,
 				374399CF1EDEC73A00D7FC98 /* AudioToolbox.framework in Frameworks */,
 				374399CD1EDEC72B00D7FC98 /* AVFoundation.framework in Frameworks */,
 				374399CB1EDEC72200D7FC98 /* Accelerate.framework in Frameworks */,
+				27A789F120E116A8006922C5 /* CardIO.framework in Frameworks */,
 				FB8F7642A1759F14875764C9 /* Pods_FitpaySDKCardIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,7 +86,7 @@
 		37377A441EDEB5E2000B72A7 /* FitpaySDKCardIO */ = {
 			isa = PBXGroup;
 			children = (
-				91CA6FC320D948E700AA7110 /* icc.xcodeproj */,
+				9188EBED20E0DC82008CAFE2 /* CardIO */,
 				37377A4D1EDEB818000B72A7 /* CardIOScanner */,
 				37377A451EDEB5E2000B72A7 /* FitpaySDKCardIO.h */,
 				37377A461EDEB5E2000B72A7 /* Info.plist */,
@@ -156,16 +111,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		91CA6FC420D948E700AA7110 /* Products */ = {
+		9188EBED20E0DC82008CAFE2 /* CardIO */ = {
 			isa = PBXGroup;
 			children = (
-				91CA6FCC20D948E700AA7110 /* icc.app */,
-				91CA6FCE20D948E700AA7110 /* CardIO.framework */,
-				91CA6FD020D948E700AA7110 /* icc-static.app */,
-				91CA6FD220D948E700AA7110 /* libCardIO.a */,
-				91CA6FD420D948E700AA7110 /* UnitTest.octest */,
+				27A789F020E116A8006922C5 /* CardIO.framework */,
 			);
-			name = Products;
+			path = CardIO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +146,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				91CA7F5120D9671200AA7110 /* PBXTargetDependency */,
 			);
 			name = FitpaySDKCardIO;
 			productName = FitpaySDKCardIO;
@@ -229,56 +179,12 @@
 			mainGroup = 37377A381EDEB5E2000B72A7;
 			productRefGroup = 37377A431EDEB5E2000B72A7 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 91CA6FC420D948E700AA7110 /* Products */;
-					ProjectRef = 91CA6FC320D948E700AA7110 /* icc.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				37377A411EDEB5E2000B72A7 /* FitpaySDKCardIO */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		91CA6FCC20D948E700AA7110 /* icc.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = icc.app;
-			remoteRef = 91CA6FCB20D948E700AA7110 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91CA6FCE20D948E700AA7110 /* CardIO.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CardIO.framework;
-			remoteRef = 91CA6FCD20D948E700AA7110 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91CA6FD020D948E700AA7110 /* icc-static.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "icc-static.app";
-			remoteRef = 91CA6FCF20D948E700AA7110 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91CA6FD220D948E700AA7110 /* libCardIO.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCardIO.a;
-			remoteRef = 91CA6FD120D948E700AA7110 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		91CA6FD420D948E700AA7110 /* UnitTest.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = UnitTest.octest;
-			remoteRef = 91CA6FD320D948E700AA7110 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		37377A401EDEB5E2000B72A7 /* Resources */ = {
@@ -321,14 +227,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		91CA7F5120D9671200AA7110 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = icc;
-			targetProxy = 91CA7F5020D9671200AA7110 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		37377A481EDEB5E2000B72A7 /* Debug */ = {
@@ -453,6 +351,9 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/JWTDecode\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/KeychainAccess\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/ObjectMapper\"",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FitpaySDKCardIO",
+					"$(PROJECT_DIR)/FitpaySDKCardIO/CardIO",
 				);
 				INFOPLIST_FILE = FitpaySDKCardIO/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -461,6 +362,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FitpaySDKCardIO/CardIO",
+					"$(PROJECT_DIR)/FitpaySDKCardIO",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -510,6 +412,9 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/KeychainAccess\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/ObjectMapper\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/CardIO\"",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FitpaySDKCardIO",
+					"$(PROJECT_DIR)/FitpaySDKCardIO/CardIO",
 				);
 				INFOPLIST_FILE = FitpaySDKCardIO/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -518,6 +423,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FitpaySDKCardIO/CardIO",
+					"$(PROJECT_DIR)/FitpaySDKCardIO",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
