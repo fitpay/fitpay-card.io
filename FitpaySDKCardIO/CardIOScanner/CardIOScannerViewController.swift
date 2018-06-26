@@ -28,7 +28,6 @@ import FitpaySDK
     
     public init() {
         super.init(paymentDelegate: CardIODelegate2FitpayScannerDelegate(), scanningEnabled: true)
-        
         self.hideCardIOLogo = true
         self.disableManualEntryButtons = true
     }

@@ -9,22 +9,12 @@
 /* Begin PBXBuildFile section */
 		37377A471EDEB5E2000B72A7 /* FitpaySDKCardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 37377A451EDEB5E2000B72A7 /* FitpaySDKCardIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37377A4F1EDEB830000B72A7 /* CardIOScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37377A4E1EDEB830000B72A7 /* CardIOScannerViewController.swift */; };
-		374399BF1EDEC2A600D7FC98 /* CardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 374399B41EDEC2A600D7FC98 /* CardIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		374399C01EDEC2A600D7FC98 /* CardIOCreditCardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 374399B51EDEC2A600D7FC98 /* CardIOCreditCardInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		374399C11EDEC2A600D7FC98 /* CardIODetectionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 374399B61EDEC2A600D7FC98 /* CardIODetectionMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		374399C21EDEC2A600D7FC98 /* CardIOPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 374399B71EDEC2A600D7FC98 /* CardIOPaymentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		374399C31EDEC2A600D7FC98 /* CardIOPaymentViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 374399B81EDEC2A600D7FC98 /* CardIOPaymentViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		374399C41EDEC2A600D7FC98 /* CardIOUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 374399B91EDEC2A600D7FC98 /* CardIOUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		374399C51EDEC2A600D7FC98 /* CardIOView.h in Headers */ = {isa = PBXBuildFile; fileRef = 374399BA1EDEC2A600D7FC98 /* CardIOView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		374399C61EDEC2A600D7FC98 /* CardIOViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 374399BB1EDEC2A600D7FC98 /* CardIOViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		374399C71EDEC2A600D7FC98 /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399BC1EDEC2A600D7FC98 /* libCardIO.a */; };
-		374399C81EDEC2A600D7FC98 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399BD1EDEC2A600D7FC98 /* libopencv_core.a */; };
-		374399C91EDEC2A600D7FC98 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399BE1EDEC2A600D7FC98 /* libopencv_imgproc.a */; };
 		374399CB1EDEC72200D7FC98 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399CA1EDEC72200D7FC98 /* Accelerate.framework */; };
 		374399CD1EDEC72B00D7FC98 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399CC1EDEC72B00D7FC98 /* AVFoundation.framework */; };
 		374399CF1EDEC73A00D7FC98 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399CE1EDEC73A00D7FC98 /* AudioToolbox.framework */; };
 		374399D11EDEC74400D7FC98 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399D01EDEC74400D7FC98 /* CoreMedia.framework */; };
 		374399D31EDEC74D00D7FC98 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399D21EDEC74D00D7FC98 /* MobileCoreServices.framework */; };
+		9188EC0220E1483C008CAFE2 /* CardIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9188EC0120E1483C008CAFE2 /* CardIO.framework */; };
 		FB8F7642A1759F14875764C9 /* Pods_FitpaySDKCardIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AB4BD6518F3806FF930294 /* Pods_FitpaySDKCardIO.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,22 +24,12 @@
 		37377A451EDEB5E2000B72A7 /* FitpaySDKCardIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FitpaySDKCardIO.h; sourceTree = "<group>"; };
 		37377A461EDEB5E2000B72A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37377A4E1EDEB830000B72A7 /* CardIOScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardIOScannerViewController.swift; sourceTree = "<group>"; };
-		374399B41EDEC2A600D7FC98 /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardIO.h; path = FitpaySDKCardIO/CardIO/CardIO.h; sourceTree = SOURCE_ROOT; };
-		374399B51EDEC2A600D7FC98 /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
-		374399B61EDEC2A600D7FC98 /* CardIODetectionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIODetectionMode.h; sourceTree = "<group>"; };
-		374399B71EDEC2A600D7FC98 /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
-		374399B81EDEC2A600D7FC98 /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
-		374399B91EDEC2A600D7FC98 /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOUtilities.h; sourceTree = "<group>"; };
-		374399BA1EDEC2A600D7FC98 /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
-		374399BB1EDEC2A600D7FC98 /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
-		374399BC1EDEC2A600D7FC98 /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
-		374399BD1EDEC2A600D7FC98 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
-		374399BE1EDEC2A600D7FC98 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
 		374399CA1EDEC72200D7FC98 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		374399CC1EDEC72B00D7FC98 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		374399CE1EDEC73A00D7FC98 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		374399D01EDEC74400D7FC98 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		374399D21EDEC74D00D7FC98 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9188EC0120E1483C008CAFE2 /* CardIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CardIO.framework; sourceTree = "<group>"; };
 		C3C00EC6BE011E56E83684F0 /* Pods-FitpaySDKCardIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitpaySDKCardIO.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitpaySDKCardIO/Pods-FitpaySDKCardIO.release.xcconfig"; sourceTree = "<group>"; };
 		C5C4271E3B2C8357A7FFC8C5 /* Pods-FitpaySDKCardIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitpaySDKCardIO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitpaySDKCardIO/Pods-FitpaySDKCardIO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,12 +42,10 @@
 				374399D31EDEC74D00D7FC98 /* MobileCoreServices.framework in Frameworks */,
 				374399D11EDEC74400D7FC98 /* CoreMedia.framework in Frameworks */,
 				374399CF1EDEC73A00D7FC98 /* AudioToolbox.framework in Frameworks */,
+				9188EC0220E1483C008CAFE2 /* CardIO.framework in Frameworks */,
 				374399CD1EDEC72B00D7FC98 /* AVFoundation.framework in Frameworks */,
 				374399CB1EDEC72200D7FC98 /* Accelerate.framework in Frameworks */,
-				374399C91EDEC2A600D7FC98 /* libopencv_imgproc.a in Frameworks */,
 				FB8F7642A1759F14875764C9 /* Pods_FitpaySDKCardIO.framework in Frameworks */,
-				374399C71EDEC2A600D7FC98 /* libCardIO.a in Frameworks */,
-				374399C81EDEC2A600D7FC98 /* libopencv_core.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +86,7 @@
 		37377A441EDEB5E2000B72A7 /* FitpaySDKCardIO */ = {
 			isa = PBXGroup;
 			children = (
-				374399B31EDEC2A600D7FC98 /* CardIO */,
+				9188EC0120E1483C008CAFE2 /* CardIO.framework */,
 				37377A4D1EDEB818000B72A7 /* CardIOScanner */,
 				37377A451EDEB5E2000B72A7 /* FitpaySDKCardIO.h */,
 				37377A461EDEB5E2000B72A7 /* Info.plist */,
@@ -122,24 +100,6 @@
 				37377A4E1EDEB830000B72A7 /* CardIOScannerViewController.swift */,
 			);
 			path = CardIOScanner;
-			sourceTree = "<group>";
-		};
-		374399B31EDEC2A600D7FC98 /* CardIO */ = {
-			isa = PBXGroup;
-			children = (
-				374399B41EDEC2A600D7FC98 /* CardIO.h */,
-				374399B51EDEC2A600D7FC98 /* CardIOCreditCardInfo.h */,
-				374399B61EDEC2A600D7FC98 /* CardIODetectionMode.h */,
-				374399B71EDEC2A600D7FC98 /* CardIOPaymentViewController.h */,
-				374399B81EDEC2A600D7FC98 /* CardIOPaymentViewControllerDelegate.h */,
-				374399B91EDEC2A600D7FC98 /* CardIOUtilities.h */,
-				374399BA1EDEC2A600D7FC98 /* CardIOView.h */,
-				374399BB1EDEC2A600D7FC98 /* CardIOViewDelegate.h */,
-				374399BC1EDEC2A600D7FC98 /* libCardIO.a */,
-				374399BD1EDEC2A600D7FC98 /* libopencv_core.a */,
-				374399BE1EDEC2A600D7FC98 /* libopencv_imgproc.a */,
-			);
-			path = CardIO;
 			sourceTree = "<group>";
 		};
 		4B64501D883898E4ED8D1B8A /* Pods */ = {
@@ -159,14 +119,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				37377A471EDEB5E2000B72A7 /* FitpaySDKCardIO.h in Headers */,
-				374399BF1EDEC2A600D7FC98 /* CardIO.h in Headers */,
-				374399C51EDEC2A600D7FC98 /* CardIOView.h in Headers */,
-				374399C11EDEC2A600D7FC98 /* CardIODetectionMode.h in Headers */,
-				374399C61EDEC2A600D7FC98 /* CardIOViewDelegate.h in Headers */,
-				374399C31EDEC2A600D7FC98 /* CardIOPaymentViewControllerDelegate.h in Headers */,
-				374399C41EDEC2A600D7FC98 /* CardIOUtilities.h in Headers */,
-				374399C21EDEC2A600D7FC98 /* CardIOPaymentViewController.h in Headers */,
-				374399C01EDEC2A600D7FC98 /* CardIOCreditCardInfo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +134,6 @@
 				37377A3E1EDEB5E2000B72A7 /* Frameworks */,
 				37377A3F1EDEB5E2000B72A7 /* Headers */,
 				37377A401EDEB5E2000B72A7 /* Resources */,
-				F84AB9F9D7486DC8B7DAD562 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,21 +205,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F84AB9F9D7486DC8B7DAD562 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitpaySDKCardIO/Pods-FitpaySDKCardIO-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -407,6 +343,9 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/JWTDecode\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/KeychainAccess\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/ObjectMapper\"",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FitpaySDKCardIO",
+					"$(PROJECT_DIR)/FitpaySDKCardIO/CardIO",
 				);
 				INFOPLIST_FILE = FitpaySDKCardIO/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -415,6 +354,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FitpaySDKCardIO/CardIO",
+					"$(PROJECT_DIR)/FitpaySDKCardIO",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -438,6 +378,7 @@
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -463,6 +404,9 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/KeychainAccess\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/ObjectMapper\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/CardIO\"",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FitpaySDKCardIO",
+					"$(PROJECT_DIR)/FitpaySDKCardIO/CardIO",
 				);
 				INFOPLIST_FILE = FitpaySDKCardIO/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -471,6 +415,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FitpaySDKCardIO/CardIO",
+					"$(PROJECT_DIR)/FitpaySDKCardIO",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -493,6 +438,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

@@ -12,10 +12,11 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   s.source_files          = "FitpaySDKCardIO/**/*.{swift,h}"
-  s.frameworks            = 'Accelerate', 'AVFoundation', 'AudioToolbox', 'CoreMedia', 'CoreVideo', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'UIKit'
+  s.frameworks            = 'Accelerate', 'AVFoundation', 'AudioToolbox', 'CoreMedia', 'CoreVideo', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'UIKit'  
   s.libraries             = 'c++'
-  s.vendored_libraries    = 'FitpaySDKCardIO/CardIO/libCardIO.a', 'FitpaySDKCardIO/CardIO/libopencv_core.a', 'FitpaySDKCardIO/CardIO/libopencv_imgproc.a'
-
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
+
+s.framework = 'CardIO'
+s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FitpaySDKCardIO/FitpaySDKCardIO/CardIO"' }
 end
