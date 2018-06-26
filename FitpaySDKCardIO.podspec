@@ -17,8 +17,6 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
 
-s.frameworks = 'CardIO'
-s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_CONFIGURATION_BUILD_DIR)/FitpaySDKCardIO' }
-
+s.framework = 'CardIO'
+s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/FitpaySDKCardIO/FitpaySDKCardIO/CardIO"' }
 end
-
