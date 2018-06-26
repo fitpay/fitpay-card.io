@@ -14,7 +14,7 @@
 		374399CF1EDEC73A00D7FC98 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399CE1EDEC73A00D7FC98 /* AudioToolbox.framework */; };
 		374399D11EDEC74400D7FC98 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399D01EDEC74400D7FC98 /* CoreMedia.framework */; };
 		374399D31EDEC74D00D7FC98 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399D21EDEC74D00D7FC98 /* MobileCoreServices.framework */; };
-		9188EC0220E1483C008CAFE2 /* CardIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9188EC0120E1483C008CAFE2 /* CardIO.framework */; };
+		9188EC0520E22D71008CAFE2 /* CardIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9188EC0420E22D71008CAFE2 /* CardIO.framework */; };
 		FB8F7642A1759F14875764C9 /* Pods_FitpaySDKCardIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AB4BD6518F3806FF930294 /* Pods_FitpaySDKCardIO.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 		374399CE1EDEC73A00D7FC98 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		374399D01EDEC74400D7FC98 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		374399D21EDEC74D00D7FC98 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		9188EC0120E1483C008CAFE2 /* CardIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CardIO.framework; sourceTree = "<group>"; };
+		9188EC0420E22D71008CAFE2 /* CardIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CardIO.framework; sourceTree = "<group>"; };
 		C3C00EC6BE011E56E83684F0 /* Pods-FitpaySDKCardIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitpaySDKCardIO.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitpaySDKCardIO/Pods-FitpaySDKCardIO.release.xcconfig"; sourceTree = "<group>"; };
 		C5C4271E3B2C8357A7FFC8C5 /* Pods-FitpaySDKCardIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitpaySDKCardIO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitpaySDKCardIO/Pods-FitpaySDKCardIO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,7 +42,7 @@
 				374399D31EDEC74D00D7FC98 /* MobileCoreServices.framework in Frameworks */,
 				374399D11EDEC74400D7FC98 /* CoreMedia.framework in Frameworks */,
 				374399CF1EDEC73A00D7FC98 /* AudioToolbox.framework in Frameworks */,
-				9188EC0220E1483C008CAFE2 /* CardIO.framework in Frameworks */,
+				9188EC0520E22D71008CAFE2 /* CardIO.framework in Frameworks */,
 				374399CD1EDEC72B00D7FC98 /* AVFoundation.framework in Frameworks */,
 				374399CB1EDEC72200D7FC98 /* Accelerate.framework in Frameworks */,
 				FB8F7642A1759F14875764C9 /* Pods_FitpaySDKCardIO.framework in Frameworks */,
@@ -86,7 +86,7 @@
 		37377A441EDEB5E2000B72A7 /* FitpaySDKCardIO */ = {
 			isa = PBXGroup;
 			children = (
-				9188EC0120E1483C008CAFE2 /* CardIO.framework */,
+				9188EC0320E22D71008CAFE2 /* CardIO */,
 				37377A4D1EDEB818000B72A7 /* CardIOScanner */,
 				37377A451EDEB5E2000B72A7 /* FitpaySDKCardIO.h */,
 				37377A461EDEB5E2000B72A7 /* Info.plist */,
@@ -109,6 +109,14 @@
 				C3C00EC6BE011E56E83684F0 /* Pods-FitpaySDKCardIO.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9188EC0320E22D71008CAFE2 /* CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				9188EC0420E22D71008CAFE2 /* CardIO.framework */,
+			);
+			path = CardIO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
