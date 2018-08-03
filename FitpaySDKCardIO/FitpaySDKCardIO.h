@@ -6,8 +6,9 @@
 //  Copyright © 2017 FitPay Inc. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
-#import "CardIO.h"
+#import <CardIO/CardIO.h>
 
 //! Project version number for FitpaySDKCardIO.
 FOUNDATION_EXPORT double FitpaySDKCardIOVersionNumber;

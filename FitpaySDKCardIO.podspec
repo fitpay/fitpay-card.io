@@ -8,14 +8,14 @@ Pod::Spec.new do |s|
   s.authors = { 'Fit Pay, Inc' => 'sdk@fit-pay.com' }
   s.source = { :git => 'https://github.com/fitpay/fitpay-card.io.git', :tag => 'v0.3' }
 
+  s.ios.vendored_frameworks = 'Frameworks/CardIO.framework'
   s.dependency 'FitpaySDK'
 
   s.ios.deployment_target = '9.0'
   s.source_files          = "FitpaySDKCardIO/**/*.{swift,h}"
-  s.frameworks            = 'Accelerate', 'AVFoundation', 'AudioToolbox', 'CoreMedia', 'CoreVideo', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'UIKit'
+  s.frameworks            = 'Accelerate', 'AVFoundation', 'AudioToolbox', 'CoreMedia', 'CoreVideo', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'UIKit'  
   s.libraries             = 'c++'
-  s.vendored_libraries    = 'FitpaySDKCardIO/CardIO/libCardIO.a', 'FitpaySDKCardIO/CardIO/libopencv_core.a', 'FitpaySDKCardIO/CardIO/libopencv_imgproc.a'
-
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
+
 
 end
