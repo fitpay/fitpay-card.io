@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'FitpaySDK'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
   s.source_files          = "FitpaySDKCardIO/**/*.{swift,h}"
   s.frameworks            = 'Accelerate', 'AVFoundation', 'AudioToolbox', 'CoreMedia', 'CoreVideo', 'MobileCoreServices', 'OpenGLES', 'QuartzCore', 'Security', 'UIKit'
   s.libraries             = 'c++'
