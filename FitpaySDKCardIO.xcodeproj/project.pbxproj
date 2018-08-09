@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FE9FFADA0FDE61E7896D24B /* Pods_FitpaySDKCardIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA05BC8B99497C3C1F59A83 /* Pods_FitpaySDKCardIO.framework */; };
 		37377A471EDEB5E2000B72A7 /* FitpaySDKCardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 37377A451EDEB5E2000B72A7 /* FitpaySDKCardIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37377A4F1EDEB830000B72A7 /* CardIOScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37377A4E1EDEB830000B72A7 /* CardIOScannerViewController.swift */; };
 		374399BF1EDEC2A600D7FC98 /* CardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 374399B41EDEC2A600D7FC98 /* CardIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,11 +26,11 @@
 		374399CF1EDEC73A00D7FC98 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399CE1EDEC73A00D7FC98 /* AudioToolbox.framework */; };
 		374399D11EDEC74400D7FC98 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399D01EDEC74400D7FC98 /* CoreMedia.framework */; };
 		374399D31EDEC74D00D7FC98 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374399D21EDEC74D00D7FC98 /* MobileCoreServices.framework */; };
-		FB8F7642A1759F14875764C9 /* Pods_FitpaySDKCardIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AB4BD6518F3806FF930294 /* Pods_FitpaySDKCardIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33AB4BD6518F3806FF930294 /* Pods_FitpaySDKCardIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitpaySDKCardIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA05BC8B99497C3C1F59A83 /* Pods_FitpaySDKCardIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitpaySDKCardIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		244A17A13F739FBBB6C82298 /* Pods-FitpaySDKCardIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitpaySDKCardIO.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitpaySDKCardIO/Pods-FitpaySDKCardIO.release.xcconfig"; sourceTree = "<group>"; };
 		37377A421EDEB5E2000B72A7 /* FitpaySDKCardIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FitpaySDKCardIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37377A451EDEB5E2000B72A7 /* FitpaySDKCardIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FitpaySDKCardIO.h; sourceTree = "<group>"; };
 		37377A461EDEB5E2000B72A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,8 +51,7 @@
 		374399CE1EDEC73A00D7FC98 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		374399D01EDEC74400D7FC98 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		374399D21EDEC74D00D7FC98 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		C3C00EC6BE011E56E83684F0 /* Pods-FitpaySDKCardIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitpaySDKCardIO.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitpaySDKCardIO/Pods-FitpaySDKCardIO.release.xcconfig"; sourceTree = "<group>"; };
-		C5C4271E3B2C8357A7FFC8C5 /* Pods-FitpaySDKCardIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitpaySDKCardIO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitpaySDKCardIO/Pods-FitpaySDKCardIO.debug.xcconfig"; sourceTree = "<group>"; };
+		75129950585BDA4A94503F77 /* Pods-FitpaySDKCardIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitpaySDKCardIO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitpaySDKCardIO/Pods-FitpaySDKCardIO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +65,9 @@
 				374399CD1EDEC72B00D7FC98 /* AVFoundation.framework in Frameworks */,
 				374399CB1EDEC72200D7FC98 /* Accelerate.framework in Frameworks */,
 				374399C91EDEC2A600D7FC98 /* libopencv_imgproc.a in Frameworks */,
-				FB8F7642A1759F14875764C9 /* Pods_FitpaySDKCardIO.framework in Frameworks */,
 				374399C71EDEC2A600D7FC98 /* libCardIO.a in Frameworks */,
 				374399C81EDEC2A600D7FC98 /* libopencv_core.a in Frameworks */,
+				2FE9FFADA0FDE61E7896D24B /* Pods_FitpaySDKCardIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 				374399CE1EDEC73A00D7FC98 /* AudioToolbox.framework */,
 				374399CC1EDEC72B00D7FC98 /* AVFoundation.framework */,
 				374399CA1EDEC72200D7FC98 /* Accelerate.framework */,
-				33AB4BD6518F3806FF930294 /* Pods_FitpaySDKCardIO.framework */,
+				0AA05BC8B99497C3C1F59A83 /* Pods_FitpaySDKCardIO.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,8 +92,8 @@
 			children = (
 				37377A441EDEB5E2000B72A7 /* FitpaySDKCardIO */,
 				37377A431EDEB5E2000B72A7 /* Products */,
-				4B64501D883898E4ED8D1B8A /* Pods */,
 				1606F32B87E5BBA85AD0222D /* Frameworks */,
+				A9FF716F9E6F2D0B4E937CE0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,11 +142,11 @@
 			path = CardIO;
 			sourceTree = "<group>";
 		};
-		4B64501D883898E4ED8D1B8A /* Pods */ = {
+		A9FF716F9E6F2D0B4E937CE0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C5C4271E3B2C8357A7FFC8C5 /* Pods-FitpaySDKCardIO.debug.xcconfig */,
-				C3C00EC6BE011E56E83684F0 /* Pods-FitpaySDKCardIO.release.xcconfig */,
+				75129950585BDA4A94503F77 /* Pods-FitpaySDKCardIO.debug.xcconfig */,
+				244A17A13F739FBBB6C82298 /* Pods-FitpaySDKCardIO.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -177,7 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37377A4A1EDEB5E2000B72A7 /* Build configuration list for PBXNativeTarget "FitpaySDKCardIO" */;
 			buildPhases = (
-				F81439480CAD9E97E11D1C45 /* [CP] Check Pods Manifest.lock */,
+				930A9C12C48988CECFF8C121 /* [CP] Check Pods Manifest.lock */,
 				37377A3D1EDEB5E2000B72A7 /* Sources */,
 				37377A3E1EDEB5E2000B72A7 /* Frameworks */,
 				37377A3F1EDEB5E2000B72A7 /* Headers */,
@@ -237,7 +237,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		F81439480CAD9E97E11D1C45 /* [CP] Check Pods Manifest.lock */ = {
+		930A9C12C48988CECFF8C121 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -388,7 +388,7 @@
 		};
 		37377A4B1EDEB5E2000B72A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5C4271E3B2C8357A7FFC8C5 /* Pods-FitpaySDKCardIO.debug.xcconfig */;
+			baseConfigurationReference = 75129950585BDA4A94503F77 /* Pods-FitpaySDKCardIO.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -402,11 +402,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/Alamofire\"",
-					"\"$PODS_CONFIGURATION_BUILD_DIR/AlamofireObjectMapper\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/FitpaySDK\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/JWTDecode\"",
-					"\"$PODS_CONFIGURATION_BUILD_DIR/KeychainAccess\"",
-					"\"$PODS_CONFIGURATION_BUILD_DIR/ObjectMapper\"",
 				);
 				INFOPLIST_FILE = FitpaySDKCardIO/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -421,16 +418,9 @@
 					"-framework",
 					"\"Alamofire\"",
 					"-framework",
-					"\"AlamofireObjectMapper\"",
-					"-framework",
 					"\"FitpaySDK\"",
 					"-framework",
 					"\"JWTDecode\"",
-					"-framework",
-					"\"KeychainAccess\"",
-					"-framework",
-					"\"ObjectMapper\"",
-					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fitpay.FitpaySDKCardIO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +434,7 @@
 		};
 		37377A4C1EDEB5E2000B72A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3C00EC6BE011E56E83684F0 /* Pods-FitpaySDKCardIO.release.xcconfig */;
+			baseConfigurationReference = 244A17A13F739FBBB6C82298 /* Pods-FitpaySDKCardIO.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
@@ -458,11 +448,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/Alamofire\"",
-					"\"$PODS_CONFIGURATION_BUILD_DIR/AlamofireObjectMapper\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/FitpaySDK\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/JWTDecode\"",
-					"\"$PODS_CONFIGURATION_BUILD_DIR/KeychainAccess\"",
-					"\"$PODS_CONFIGURATION_BUILD_DIR/ObjectMapper\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/CardIO\"",
 				);
 				INFOPLIST_FILE = FitpaySDKCardIO/Info.plist;
@@ -478,16 +465,9 @@
 					"-framework",
 					"\"Alamofire\"",
 					"-framework",
-					"\"AlamofireObjectMapper\"",
-					"-framework",
 					"\"FitpaySDK\"",
 					"-framework",
 					"\"JWTDecode\"",
-					"-framework",
-					"\"KeychainAccess\"",
-					"-framework",
-					"\"ObjectMapper\"",
-					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fitpay.FitpaySDKCardIO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
